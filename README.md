@@ -1,4 +1,7 @@
 # go_runner
+
+[![Build Status](https://www.travis-ci.org/26huitailang/go-runner.svg?branch=master)](https://www.travis-ci.org/26huitailang/go-runner)
+
 run multiple concurrency tasks
 
 测试运行

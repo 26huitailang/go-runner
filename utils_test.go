@@ -16,3 +16,9 @@ func TestAdd(t *testing.T) {
 	assert.Equal(t, Add(x2, y2), ret2, "fail")
 	assert.Equal(t, Add(x3, y3), ret3, "fail")
 }
+
+func BenchmarkAdd(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		_ = Add(i, i)
+	}
+}
